@@ -50,7 +50,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../gh-page'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/h7ui/gh-page',
+    assetsPublicPath: '/h7ui/gh-page/',
 
     /**
      * Source Maps
