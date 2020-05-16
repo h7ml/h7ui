@@ -2,29 +2,25 @@
 
 > This is a UI components for Vue 2.x 
 
-## Build Setup
+# 介绍
 
-``` bash
-# install dependencies
-npm install
+----
 
-# serve with hot reload at localhost:8080
-npm run dev
+`h7ui` 是一款基于 `Vue.js 2.0` 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品
 
-# build for production with minification
-npm run build
+## 特性
 
-# build for production and view the bundle analyzer report
-npm run build --report
+- 基于 `Vue` 开发的 UI 组件
+- 使用 npm + webpack + babel 的工作流，支持 ES2015
+- 提供友好的 API，可灵活的使用组件
 
-# run unit tests
-npm run unit
+## 浏览器支持
 
-# run e2e tests
-npm run e2e
+- 现代浏览器和 IE9 及以上
+- [Electron](http://electron.atom.io/)
+- [NW.js](http://nwjs.io)
 
-# run all tests
-npm test
-```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 贡献
+
+如果你在使用 `h7ui` 时遇到问题，或者有好的建议，欢迎给我们提 [Issue](https://github.com/h7ml/h7ui/issues) 或 [Pull Request](https://github.com/h7ml/h7ui/pulls)

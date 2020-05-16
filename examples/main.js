@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import demoBlock from './components/demo-block.vue'
+import '../packages/theme-default/lib/index.css'
 import h7ui from '../packages/index'
 Vue.config.productionTip = false
 

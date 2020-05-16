@@ -66,7 +66,7 @@
 </template>
 
 <script>
-  import navConf from '../nav.config.json'
+  import navConf from '../navInfo.json'
   export default {
     data () {
       return {
