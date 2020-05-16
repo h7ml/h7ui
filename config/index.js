@@ -48,7 +48,7 @@ module.exports = {
     index: path.resolve(__dirname, '../gh-page/index.html'),
 
     // Paths
-    assetsRoot: path.resolve(__dirname, '..//gh-page'),
+    assetsRoot: path.resolve(__dirname, '../gh-page'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/gh-page',
 
