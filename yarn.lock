@@ -108,6 +108,11 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@kwsites/exec-p@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/@kwsites/exec-p/-/exec-p-0.4.0.tgz#ab3765d482849ba6e825721077c248cf9f3323b7"
+  integrity sha512-44DWNv5gDR9EwrCTVQ4ZC99yPqVS0VCWrYIBl45qNR8XQy+4lbl0IQG8kBDf6NHwj4Ib4c2z1Fq1IUJOCbkZcw==
+
 "@types/node@*":
   version "14.0.1"
   resolved "https://registry.npmjs.org/@types/node/-/node-14.0.1.tgz#5d93e0a099cd0acd5ef3d5bde3c086e1f49ff68c"
@@ -2688,7 +2693,7 @@ debug@^3.0.0, debug@^3.1.0, debug@^3.1.1:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.1.0:
+debug@^4.0.1, debug@^4.1.0:
   version "4.1.1"
   resolved "https://registry.npmjs.org/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
@@ -6303,6 +6308,11 @@ mocha-nightwatch@3.2.2:
     mkdirp "0.5.1"
     supports-color "3.1.2"
 
+moment@^2.25.3:
+  version "2.25.3"
+  resolved "https://registry.npmjs.org/moment/-/moment-2.25.3.tgz#252ff41319cf41e47761a1a88cab30edfe9808c0"
+  integrity sha512-PuYv0PHxZvzc15Sp8ybUCoQ+xpyPWvjOuK72a5ovzp2LI32rJXOiIfyoFoYvG3s6EwwrdkMyWuRiEHSZRLJNdg==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -8682,6 +8692,14 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.3"
   resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
+
+simple-git@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.npmjs.org/simple-git/-/simple-git-2.4.0.tgz#b7fe438ed9b818dd6f5f3ec240f2611a499d60d4"
+  integrity sha512-lqeAiq+P7A7oIGIUllU1Jg9U2SHOdxzhnFU4p4yJdvNoR4O3lYGJCfaC4cGx//J7jkrE+FPs5dJR0JVg1wVwfQ==
+  dependencies:
+    "@kwsites/exec-p" "^0.4.0"
+    debug "^4.0.1"
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
