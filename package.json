@@ -1,6 +1,6 @@
 {
   "name": "h7ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a UI components for Vue 2.x ",
   "author": "h7ml <h7ml@qq.com>",
   "main": "packages/index.js",

@@ -5,32 +5,27 @@
 
 import MetaInfo from './meta-info/index'
 import h7Button from './button/index'
-// import h7LoadingBar from './loading-bar/index'
+import h7Alert from './alert/index'
 import Skeleton from './skeleton/index'
 const components = [
-    h7Button,
-    Skeleton
-    // h7LoadingBar
+  h7Button,
+  Skeleton,
+  h7Alert
 ]
 
-const install = function(Vue) {
-    if (install.installed) return
-    components.map(
-        component => Vue.component(component.name, component),
-        console.log(components)
-    )
-    MetaInfo.install(Vue)
-    // Vue.prototype.$loading = h7LoadingBar
+const install = function (Vue) {
+  if (install.installed) return
+  components.map(component => Vue.component(component.name, component))
+  MetaInfo.install(Vue)
 }
 
 if (typeof window !== 'undefined' && window.Vue) {
-    install(window.Vue)
+  install(window.Vue)
 }
 
 export default {
-    install,
-    h7Button,
-    Skeleton
-    // h7LoadingBar
+  install,
+  h7Button,
+  Skeleton,
+  h7Alert
 }
-

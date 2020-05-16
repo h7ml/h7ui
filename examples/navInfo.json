@@ -35,6 +35,11 @@
           "desc": "Button 按钮",
           "name": "button",
           "path": "/button"
+        },
+        {
+          "desc": "弹出消息",
+          "name": "alert",
+          "path": "/alert"
         }
       ]
     }

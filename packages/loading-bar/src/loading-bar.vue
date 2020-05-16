@@ -9,7 +9,7 @@
     </div>
     <div class="h7_loading-bar--spinner" role="spinner" v-if="showSpinner">
       <div class="spinner-icon" :class="isError ? 'spinner-icon--error' : ''"
-           :style="{'animation': 'w-spinner 400ms '+easing+' infinite'}"></div>
+           :style="{'animation': 'h7-spinner 400ms '+easing+' infinite'}"></div>
     </div>
   </div>
 </template>

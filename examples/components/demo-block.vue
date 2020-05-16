@@ -64,7 +64,7 @@
   .highlight-wrapper,
   .docs-demo__meta {
     padding: 0 20px;
-    overflow-y: auto;
+    overfloh7-y: auto;
   }
 
   .docs-demo__code {
@@ -120,7 +120,7 @@
       margin: 10px auto 0;
       border-radius: 4px;
       white-space: nowrap;
-      overflow-x: auto;
+      overfloh7-x: auto;
     }
   }
 
