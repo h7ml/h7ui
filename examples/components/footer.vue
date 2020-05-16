@@ -3,7 +3,7 @@
     <div class="footer-container">
       <div type="flex" justify="space-between">
         <span :span="12" class="text-center">
-          <a href="https://h7ml.github.io/h7ui">
+          <a href="https://h7ml.github.io/h7ui/gh-page/">
             <img src="../assets/img/avater.png">
           </a>
           <div>
