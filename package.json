@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "This is a UI components for Vue 2.x ",
   "author": "h7ml <h7ml@qq.com>",
-  "private": true,
+  "main": "packages/index.js",
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -13,6 +14,21 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "build": "node build/build.js",
     "gitpush": "npm run build && node gitpush/gitpush.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:h7ml/h7ui.git"
+  },
+  "homepage": "https://h7ml.github.io/h7ui/gh-page/",
+  "keywords": [
+    "h7ui",
+    "vue",
+    "components",
+    "h7ml"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h7ml/h7ui/issues"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
